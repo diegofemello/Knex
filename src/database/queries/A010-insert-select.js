@@ -8,3 +8,5 @@ concat('Description de', ' ', first_name),
 id
 from users;
  */
+
+// TODO: implementar

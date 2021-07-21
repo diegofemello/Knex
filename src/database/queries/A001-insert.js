@@ -33,8 +33,8 @@ const dados = [
 ];
 
 const insert = knex('users').insert(dados);
-// console.log(insert.toString());
-// console.log(insert.toSQL().toNative());
+console.log(insert.toString());
+console.log(insert.toSQL().toNative());
 
 insert.then((data) => {
   console.log(data);
